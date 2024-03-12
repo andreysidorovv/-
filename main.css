@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
+
+@font-face {
+    font-family: 'Cygre-Black';
+    src: url('../fonts/Cygre-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cygre-ExtraBold';
+    src: url('../fonts/Cygre-ExtraBoldIt.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/Gilroy-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
+a{
+  padding: 1px 10px 10px 10px; /* Отступы */
+  text-decoration: none; 
+  transition-duration: 0.4s; /* Длительность анимации при наведении */
+  cursor: pointer; /* Изменение курсора при наведении */
+  border-radius: 15px; /* Радиус скругления углов */
+}
+
+a:hover {
+  background-color: #45a049; /* Изменение цвета фона при наведении */
+  color
+ 
+}
+
+li{
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Gilroy-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #696969;
+}
+
+.navigation__list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__list_item{
+  margin-top: 22px;
+}
+
+.wrapper_logo{
+  margin-right: 300px;
+}
+
+
+.wrapper_health{
+  display: flex;
+}
+
+.wrapper__stars-text{
+  font-family: 'Cygre-ExtraBold';
+  font-size: 40px;
+  font-weight: 900;
+  color: #4A860B;
+  margin-left: 488px;
+  
+}
+
+.span__first{
+  margin-left: 213.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
